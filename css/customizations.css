@@ -1,3 +1,46 @@
 body {
     background-image: url('/~tjordan/background.jpg');
+    font-family: Helvetica;
+    letter-spacing: -1px;
+}
+
+.shadow-green {
+    box-shadow: 12px 12px 4px #00af56;
+}
+.shadow-orange {
+    box-shadow: 12px 12px 4px #fcaf72;
+}
+
+.photo-row {
+    padding: 0 0 15px 0;
+}
+
+.photo-row div span.pictext {
+    position: relative;
+    top: -65px;
+    right: 15px;
+    color: #fff;
+    font-size: 18px;
+    float: right;
+    background: rgb(150, 150, 150);
+    background: rgba(150, 150, 150, 0.5);
+    padding: 0 5px 0 5px;
+}
+
+.script {
+    font-size: 24px;
+    font-family: 'Nothing You Could Do', cursive;
+    font-style: italic;
+}
+
+.heading {
+    padding-left: 200px;
+}
+
+.heading h1 {
+    font-size: 72px;
+}
+
+.subheading {
+    padding-left: 300px;
 }
