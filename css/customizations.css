@@ -15,7 +15,11 @@ body {
     padding: 0 0 15px 0;
 }
 
-.photo-row div span.pictext {
+.photo-row div {
+    padding: 0 0 -25px 0;
+}
+
+.photo-row div .pictext {
     position: relative;
     top: -65px;
     right: 15px;
@@ -43,4 +47,8 @@ body {
 
 .subheading {
     padding-left: 300px;
+}
+
+.breaktext {
+    padding-left: 200px;
 }
