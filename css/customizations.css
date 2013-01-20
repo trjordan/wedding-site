@@ -55,6 +55,10 @@ body {
     display: none;
 }
 
+.container {
+    padding-bottom: 40px;
+}
+
 /* Story */
 
 .story-text {
