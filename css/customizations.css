@@ -64,3 +64,50 @@ body {
 .directions-text {
     padding: 25px;
 }
+
+/* Nav bar */
+
+.shim {
+    position: relative;
+    z-index: 1;
+}
+
+.shim img {
+    position: relative;
+    z-index: 1;
+}
+
+.connector {
+    position: absolute;
+    margin: 10px 0 10px 0;
+    background: green;
+    height: 5px;
+    width: 100%;
+    right: 0px;
+    top: 5px;
+    z-index: 2;
+}
+
+.navbar {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: #00af56;
+    padding: 0 8px 0 8px;
+}
+
+.navbar a {
+    color: white;
+    z-index: 5;
+    position: relative;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 6px 10px 6px 10px;
+    margin: 0px 3px 0px 3px;
+    border-radius: 5px;
+    z-index: 10;
+}

@@ -4,6 +4,9 @@ function navigateTo(dest) {
 
     // Show the requested page
     $('.container').filter('[data-location=' + dest + ']').effect('fade');
+
+    // Hide/show the nav bar, but only on non-home pages.
+    $('.navbar').toggle(dest !== 'home');
 }
 
 var popped = !!window.history.state, initialURL = location.href
@@ -22,7 +25,7 @@ $(window).bind('statechange', function(event) {
 
 
 // Bindings for navigation elements
-$('.navigation').click(function() {
+$('.navigation').click(function(event) {
     var dest = $(this).data('destination');
     History.pushState({destination: dest}, '', dest);
 });
