@@ -51,11 +51,24 @@ body {
     width: 70%;
 }
 
-/* Directions */
-
 .alt {
     display: none;
 }
+
+/* Story */
+
+.story-text {
+    padding: 25px;
+}
+
+.story-text h4 {
+}
+
+.story-images img {
+    padding-top: 20px;
+}
+
+/* Directions */
 
 .directions-map {
     margin-top: 25px;
