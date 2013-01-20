@@ -53,7 +53,7 @@
     <!--   </div> -->
     <!-- </div> -->
 
-    <div class="container">
+    <div class="container" data-location="home">
 
         <div class="heading">
           <h1>Michelle <span class="script">and</span> TR</h1>
@@ -61,15 +61,15 @@
         </div>
 
         <div class="row photo-row">
-            <div class="big-day span4">
+            <div class="span4 navigation" data-destination="event">
                 <img src="img/Running1.jpg" class="shadow-green" />
                 <h3><a class="pictext">The Big Day</a></h3>
             </div>
-            <div class="getting-here span4">
+            <div class="span4 navigation" data-destination="directions">
                 <img src="img/Running2.jpg" class="shadow-orange" />
                 <h3><a class="pictext">Getting Here</a></h3>
             </div>
-            <div class="fun-stuff span4">
+            <div class="span4 navigation" data-destination="fun-stuff">
                 <img src="img/Running3.jpg" class="shadow-green" />
                 <h3><a class="pictext">Fun Stuff!</a></h3>
             </div>
@@ -77,7 +77,7 @@
         <h2 class="script breaktext">we swear these aren't the proposal pictures...</h2>
         <a class="row a-row">
             <span class="span4"></span>
-            <div class="span4">
+            <div class="span4 navigation" data-destination="story">
                 <img src="img/HappyPhotoBooth.jpg" class="shadow-green" />
                 <h3><a class="pictext">The <i>Real</i> Story</a></h3>
             </div>
@@ -86,10 +86,27 @@
 
     </div> <!-- /container -->
 
+    <div class="container alt" data-location="event">
+        event
+    </div>
+
+    <div class="container alt" data-location="directions">
+        directions
+    </div>
+
+    <div class="container alt" data-location="fun-stuff">
+        fun stuff
+    </div>
+
+    <div class="container alt" data-location="story">
+        story
+    </div>
+
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
     <script src="js/bootstrap-transition.js"></script>
     <script src="js/bootstrap-alert.js"></script>
     <script src="js/bootstrap-modal.js"></script>
@@ -102,8 +119,9 @@
     <script src="js/bootstrap-collapse.js"></script>
     <script src="js/bootstrap-carousel.js"></script>
     <script src="js/bootstrap-typeahead.js"></script>
+    <script src="js/jquery.history.js"></script>
+    <script src="js/navigation.js"></script>
     <script>
-
     </script>
 
   </body>
