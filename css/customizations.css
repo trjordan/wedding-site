@@ -4,21 +4,6 @@ body {
     letter-spacing: -1px;
 }
 
-.shadow-green {
-    box-shadow: 12px 12px 4px #00af56;
-}
-.shadow-orange {
-    box-shadow: 12px 12px 4px #fcaf72;
-}
-
-.photo-row {
-    padding: 0 0 15px 0;
-}
-
-.photo-row div {
-    padding: 0 0 -25px 0;
-}
-
 .photo-row div .pictext {
     position: relative;
     top: -65px;

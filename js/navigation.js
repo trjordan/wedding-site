@@ -2,9 +2,6 @@ function navigateTo(dest) {
     // Hide all current pages
     $('.container').filter(':visible').effect('fade');
 
-    // Hide/show the nav bar, but only on non-home pages.
-    $('.navbar').toggle(dest !== 'home');
-
     // Show the requested page
     $('.container').filter('[data-location=' + dest + ']').effect('fade');
 }
@@ -31,7 +28,7 @@ $('.navigation').click(function(event) {
         console.log('Got null destination on navigation, ignoring');
         return false;
     }
-    History.pushState({destination: dest}, '', '/' + dest);
+    History.pushState({destination: dest}, '', dest === 'home' ? '/' : '/' + dest);
 
     // If it's a link, don't follow it
     event.preventDefault();
