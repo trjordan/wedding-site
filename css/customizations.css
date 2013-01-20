@@ -38,23 +38,29 @@ body {
 }
 
 .heading {
-    padding-left: 200px;
+    text-align: center;
 }
 
 .heading h1 {
     font-size: 72px;
 }
 
-.subheading {
-    padding-left: 300px;
-}
-
 .breaktext {
-    padding-left: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 
 /* Directions */
 
 .alt {
     display: none;
+}
+
+.directions-map {
+    margin-top: 25px;
+}
+
+.directions-text {
+    padding: 25px;
 }
