@@ -2,6 +2,7 @@ body {
     background-image: url('/~tjordan/background.jpg');
     font-family: Helvetica;
     letter-spacing: -1px;
+    padding-top: 30px; /* 60px to make the container go all the way to the bottom of the topbar */
 }
 
 .photo-row div .pictext {
@@ -65,6 +66,20 @@ body {
 
 .directions-text {
     padding: 25px;
+}
+
+/* Fun Stuff */
+
+.fun-stuff-text {
+    padding: 25px;
+}
+
+img.partial-main {
+    width: 24.5%;
+}
+
+.hotel-description-text {
+    padding-top: 15px;
 }
 
 /* Nav bar */
