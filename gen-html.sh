@@ -14,12 +14,12 @@ sed -i '' 's|js/|../js/|g' event/index.html
 sed -i '' 's|img/|../img/|g' event/index.html
 sed -i '' 's|css/|../css/|g' event/index.html
 
-cp index.html fun-stuff/index.html
-sed -i '' 's/" data-location="home"/ alt" data-location="home"/g' fun-stuff/index.html
-sed -i '' 's/ alt" data-location="fun-stuff"/" data-location="fun-stuff"/g' fun-stuff/index.html
-sed -i '' 's|js/|../js/|g' fun-stuff/index.html
-sed -i '' 's|img/|../img/|g' fun-stuff/index.html
-sed -i '' 's|css/|../css/|g' fun-stuff/index.html
+cp index.html staying/index.html
+sed -i '' 's/" data-location="home"/ alt" data-location="home"/g' staying/index.html
+sed -i '' 's/ alt" data-location="staying"/" data-location="staying"/g' staying/index.html
+sed -i '' 's|js/|../js/|g' staying/index.html
+sed -i '' 's|img/|../img/|g' staying/index.html
+sed -i '' 's|css/|../css/|g' staying/index.html
 
 cp index.html story/index.html
 sed -i '' 's/" data-location="home"/ alt" data-location="home"/g' story/index.html
