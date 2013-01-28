@@ -45,6 +45,12 @@ body {
     padding-bottom: 40px;
 }
 
+/* Event */
+
+.event-text {
+    padding: 25px;
+}
+
 /* Story */
 
 .story-text {
