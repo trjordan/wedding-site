@@ -45,6 +45,15 @@ body {
     padding-bottom: 40px;
 }
 
+/* Main */
+
+.footer {
+    border-top: 1px solid grey;
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
 /* Event */
 
 .event-text {
